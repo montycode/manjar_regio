@@ -14,7 +14,7 @@ const Index = () => {
                         <ul className="flex leading-loose">
                             <a href="/">
                                 <li className="text-2xl leading-8 mr-10 text-color-orange relative font-normal cursor-pointer text-hover">
-                                    Home
+                                    Inicio
                                     <hr className="border-4 border-color-orange bg-color-orange w-10 absolute right-0" />
                                 </li>
                             </a>
@@ -42,7 +42,7 @@ const Index = () => {
                             <ul id="list" className={menu ? "top-100 p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-12 md:mt-16" : "hidden p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-12 md:mt-16"}>
                                 <li className="flex cursor-pointer text-hover text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2">
                                     <a href="/">
-                                        <span className="ml-2 font-bold">Home</span>
+                                        <span className="ml-2 font-bold">Inicio</span>
                                     </a>
                                 </li>
                                 <li className="flex flex-col cursor-pointer text-hover text-gray-600 text-sm leading-3 tracking-normal py-2 flex justify-center" onclick="dropdownHandler(this)">
